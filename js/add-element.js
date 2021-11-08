@@ -10,7 +10,7 @@ $('.hot').each(function () {
 
 // traverse the elements
 $('#one').next().next().text('milk');
-$('#one').remove();
+//$('#one').remove();
 
 // add a new element by clicking the plus sign
 $('#todo').append('<li>candy</li>');
