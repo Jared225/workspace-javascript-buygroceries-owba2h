@@ -39,7 +39,8 @@ $('#save').click(function () {
     console.log(value);
 
     firebase.firestore().collection('mylist').add({
-      item: value, //?
+      item: value,
+      name: "mom"//?
     });
   });
 });
